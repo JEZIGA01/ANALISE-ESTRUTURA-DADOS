@@ -106,3 +106,9 @@ public static void main(String args[]){
 		System.out.println(" "+vet[i]);
 	}
 }
+
+long tempoInicial = System.currentTimeMillis();
+
+// execução do método
+
+System.out.println("O método foi executado em " + System.currentTimeMillis() - tempoInicial);
