@@ -1,0 +1,45 @@
+BUBBLE SORT
+
+A classificação por bolha, ou Bubble Sort, é um algoritmo básico para organizar uma sequência de números ou outros elementos na ordem correta.
+O método funciona examinando cada conjunto de elementos adjacentes na string, da esquerda para a direita, trocando suas posições se estiverem fora de ordem. O algoritmo então repete esse processo até que possa percorrer toda a string e não encontrar dois elementos que precisem ser trocados.
+Então, qual é o tipo de bolha? Imagine que estamos pegando os dois primeiros elementos.
+ Se o primeiro elemento for maior que o segundo, nós os trocamos. 
+Agora pegamos o segundo e o terceiro elementos — repetimos. 
+Assim, no final, o maior elemento será o último membro da matriz.
+ Agora, repetimos a operação para os primeiros n-1 números, portanto n-2 e assim por diante.
+
+Os programadores de computador usam a classificação por bolha
+ para organizar uma sequência de números na ordem correta. 
+Por ser o tipo mais simples de algoritmo de classificação, 
+a classificação por bolhas não é muito usada na ciência da computação do mundo real.
+1. Uma maneira de aprender a classificação básica
+2. Uma metodologia para classificar pequenos conjuntos de dados
+3. Uma metodologia de classificação para conjuntos de dados que, em sua maioria, já estão em ordem
+
+Complexidades
+
+Complexidade de tempo de pior caso e caso médio 
+
+Se a matriz estiver na ordem inversa, essa condição é o pior caso e sua complexidade de tempo é O (n 2 ).
+
+Melhor caso de complexidade de tempo
+
+Se a matriz já estiver classificada, então é o melhor cenário e sua complexidade de tempo é O (n)
+
+Espaço Auxiliar : O (1)
+
+Quais as vantagens de usar o Bubble Sort?
+Uma das principais vantagens de um tipo de bolha é que ele é um algoritmo muito simples de ser descrito 
+para um computador. Na verdade, há apenas uma tarefa a ser executada 
+(compare dois valores e, se necessário, troque-os).
+ Isso o torna um programa de computador muito pequeno e simples.
+
+Quais as desvantagens de usar o Bubble Sort?
+Bubble Sort é um dos algoritmos mais amplamente discutidos, 
+simplesmente por causa de sua falta de eficiência para classificar matrizes. 
+Se um array já estiver classificado, Bubble Sort passará pelo array apenas uma vez 
+(usando o conceito dois abaixo), no entanto, o pior cenário é um tempo de execução de O (N²), 
+que é extremamente ineficiente.
+
+
+https://blog.betrybe.com/tecnologia/bubble-sort-tudo-sobre/
