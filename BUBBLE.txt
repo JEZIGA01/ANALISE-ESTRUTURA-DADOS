@@ -112,3 +112,23 @@ long tempoInicial = System.currentTimeMillis();
 // execução do método
 
 System.out.println("O método foi executado em " + System.currentTimeMillis() - tempoInicial);
+
+
+package heapsort;
+
+public class Heapsort {
+
+
+    public static void main(String[] args) {
+
+        int quantidade = 1000;
+        int[] vetor = new int[quantidade];
+        int tamanho;
+
+        for(int i = 0; i < vetor.length; i++){
+            vetor[i] = (int) (Math.random()*quantidade);
+        }
+
+    }
+
+}
