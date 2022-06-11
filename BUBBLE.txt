@@ -132,3 +132,7 @@ public class Heapsort {
     }
 
 }
+for (int i=0; i<array.length; i++) {
+             array[i] = 10 + random.nextInt(40); // Gera números aleatórios com limite 50 e minimo 10.
+             System.out.println(array[i]); // Saída, são gerados 5 números.
+        }
